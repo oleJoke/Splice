@@ -102,7 +102,26 @@ html{
 }
 
 @media(max-width:860px){
-  .header{
+  .header__nav{
+    display: none;
+  }
+}
+@media(max-width:500px){
+  .header__logo img{
+    padding-top: 4px;
+    width: 77px;
+  }
+  .header__account-login{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .header__account-signUp{
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media(max-width:425px){
+  .header__account{
     display: none;
   }
 }
